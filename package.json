@@ -1,0 +1,29 @@
+{
+  "name": "GraphqlServer",
+  "version": "1.0.0",
+  "description": "GraphQL server using graphql-yoga",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindradawas/GraphqlServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arvindradawas/GraphqlServer/issues"
+  },
+  "homepage": "https://github.com/arvindradawas/GraphqlServer#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql-tools": "^4.0.6",
+    "graphql-yoga": "^1.18.3",
+    "lodash": "^4.17.15",
+    "lodash.merge": "^4.6.2"
+  }
+}
