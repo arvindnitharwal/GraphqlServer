@@ -1,6 +1,6 @@
 import axios from 'axios';
 const jsonData=require('../../services/appSetting.json');
-const apiUrl = jsonData.servicesUrl.userBase;
+const apiUrl = jsonData.servicesUrl.userInteraction;
 class apiCalls {
     async insertProfileDetails(requestData) {
         try {

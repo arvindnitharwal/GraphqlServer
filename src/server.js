@@ -1,8 +1,8 @@
 import { GraphQLServer } from 'graphql-yoga';
 import { makeExecutableSchema } from 'graphql-tools';
 import merge from 'lodash.merge';
-import userBasetypeDef from './services/userBaseService/typeDef';
-import userBaseResolvers from './services/userBaseService/resolver';
+import userBasetypeDef from './services/UserInteraction/typeDef';
+import userBaseResolvers from './services/UserInteraction/resolver';
 const jsonData=require('./services/appSetting.json');
 const typeDefs = [
     userBasetypeDef,

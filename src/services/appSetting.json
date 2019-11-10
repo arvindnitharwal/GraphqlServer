@@ -3,6 +3,6 @@
         "port": 8000
     },
     "servicesUrl": {
-        "userBase": "127.0.0.1.4000"
+        "userInteraction": "127.0.0.1.4000"
     }
 }
